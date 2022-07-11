@@ -1,0 +1,561 @@
+
+Entered : concave points_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.630
+Model:                            OLS   Adj. R-squared:                  0.629
+Method:                 Least Squares   F-statistic:                     964.4
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.97e-124
+Time:                        12:04:32   Log-Likelihood:                -111.20
+No. Observations:                 569   AIC:                             226.4
+Df Residuals:                     567   BIC:                             235.1
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -0.2970      0.025    -11.951      0.000      -0.346      -0.248
+concave points_worst     5.8422      0.188     31.055      0.000       5.473       6.212
+==============================================================================
+Omnibus:                       16.573   Durbin-Watson:                   1.766
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               17.234
+Skew:                           0.418   Prob(JB):                     0.000181
+Kurtosis:                       3.165   Cond. No.                         15.4
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+AIC: 226.40472714322368
+BIC: 235.09248801147635
+
+
+Entered : radius_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.690
+Model:                            OLS   Adj. R-squared:                  0.689
+Method:                 Least Squares   F-statistic:                     630.5
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          9.31e-145
+Time:                        12:04:32   Log-Likelihood:                -60.471
+No. Observations:                 569   AIC:                             126.9
+Df Residuals:                     566   BIC:                             140.0
+Df Model:                           2                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -0.6818      0.043    -15.818      0.000      -0.766      -0.597
+concave points_worst     3.5296      0.279     12.632      0.000       2.981       4.078
+radius_worst             0.0399      0.004     10.511      0.000       0.032       0.047
+==============================================================================
+Omnibus:                       20.641   Durbin-Watson:                   1.711
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.070
+Skew:                           0.481   Prob(JB):                     1.61e-05
+Kurtosis:                       3.085   Cond. No.                         421.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+AIC: 126.94189925394039
+BIC: 139.9735405563194
+
+
+Entered : texture_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.713
+Model:                            OLS   Adj. R-squared:                  0.712
+Method:                 Least Squares   F-statistic:                     468.8
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          7.58e-153
+Time:                        12:04:32   Log-Likelihood:                -38.328
+No. Observations:                 569   AIC:                             84.66
+Df Residuals:                     565   BIC:                             102.0
+Df Model:                           3                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -0.9327      0.056    -16.756      0.000      -1.042      -0.823
+concave points_worst     3.2859      0.271     12.108      0.000       2.753       3.819
+radius_worst             0.0366      0.004      9.920      0.000       0.029       0.044
+texture_worst            0.0130      0.002      6.762      0.000       0.009       0.017
+==============================================================================
+Omnibus:                       17.358   Durbin-Watson:                   1.662
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.425
+Skew:                           0.441   Prob(JB):                     9.98e-05
+Kurtosis:                       2.984   Cond. No.                         778.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+AIC: 84.65591010260528
+BIC: 102.0314318391106
+
+
+Entered : area_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.723
+Model:                            OLS   Adj. R-squared:                  0.721
+Method:                 Least Squares   F-statistic:                     367.5
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.68e-155
+Time:                        12:04:32   Log-Likelihood:                -28.965
+No. Observations:                 569   AIC:                             67.93
+Df Residuals:                     564   BIC:                             89.65
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -1.4249      0.126    -11.321      0.000      -1.672      -1.178
+concave points_worst     2.9919      0.276     10.855      0.000       2.450       3.533
+radius_worst             0.0949      0.014      6.828      0.000       0.068       0.122
+texture_worst            0.0128      0.002      6.791      0.000       0.009       0.017
+area_worst              -0.0005      0.000     -4.344      0.000      -0.001      -0.000
+==============================================================================
+Omnibus:                       11.826   Durbin-Watson:                   1.657
+Prob(Omnibus):                  0.003   Jarque-Bera (JB):               12.258
+Skew:                           0.349   Prob(JB):                      0.00218
+Kurtosis:                       2.828   Cond. No.                     2.75e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 2.75e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: 67.92936966042816
+BIC: 89.64877183105982
+
+
+Entered : smoothness_se
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.735
+Model:                            OLS   Adj. R-squared:                  0.733
+Method:                 Least Squares   F-statistic:                     312.9
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          6.76e-160
+Time:                        12:04:32   Log-Likelihood:                -15.659
+No. Observations:                 569   AIC:                             43.32
+Df Residuals:                     563   BIC:                             69.38
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -1.8064      0.143    -12.603      0.000      -2.088      -1.525
+concave points_worst     2.6916      0.276      9.765      0.000       2.150       3.233
+radius_worst             0.1214      0.015      8.365      0.000       0.093       0.150
+texture_worst            0.0129      0.002      6.963      0.000       0.009       0.016
+area_worst              -0.0007      0.000     -5.811      0.000      -0.001      -0.000
+smoothness_se           19.7461      3.803      5.192      0.000      12.276      27.216
+==============================================================================
+Omnibus:                       15.993   Durbin-Watson:                   1.684
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               16.734
+Skew:                           0.419   Prob(JB):                     0.000232
+Kurtosis:                       3.058   Cond. No.                     3.81e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.81e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: 43.31796597221614
+BIC: 69.38124857697413
+
+
+Entered : symmetry_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.743
+Model:                            OLS   Adj. R-squared:                  0.741
+Method:                 Least Squares   F-statistic:                     271.3
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          2.39e-162
+Time:                        12:04:32   Log-Likelihood:                -6.9627
+No. Observations:                 569   AIC:                             27.93
+Df Residuals:                     562   BIC:                             58.33
+Df Model:                           6                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -2.0507      0.153    -13.411      0.000      -2.351      -1.750
+concave points_worst     2.0303      0.314      6.457      0.000       1.413       2.648
+radius_worst             0.1259      0.014      8.775      0.000       0.098       0.154
+texture_worst            0.0120      0.002      6.572      0.000       0.008       0.016
+area_worst              -0.0006      0.000     -5.847      0.000      -0.001      -0.000
+smoothness_se           21.8857      3.784      5.784      0.000      14.454      29.318
+symmetry_worst           0.8567      0.205      4.177      0.000       0.454       1.260
+==============================================================================
+Omnibus:                       23.588   Durbin-Watson:                   1.717
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.410
+Skew:                           0.493   Prob(JB):                     3.04e-06
+Kurtosis:                       3.314   Cond. No.                     3.84e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 3.84e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: 27.92548432144804
+BIC: 58.33264736033235
+
+
+Entered : compactness_se
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.747
+Model:                            OLS   Adj. R-squared:                  0.744
+Method:                 Least Squares   F-statistic:                     236.2
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.05e-162
+Time:                        12:04:32   Log-Likelihood:                -3.2345
+No. Observations:                 569   AIC:                             22.47
+Df Residuals:                     561   BIC:                             57.22
+Df Model:                           7                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -2.0276      0.152    -13.314      0.000      -2.327      -1.728
+concave points_worst     2.4689      0.352      7.018      0.000       1.778       3.160
+radius_worst             0.1222      0.014      8.524      0.000       0.094       0.150
+texture_worst            0.0121      0.002      6.637      0.000       0.009       0.016
+area_worst              -0.0006      0.000     -5.788      0.000      -0.001      -0.000
+smoothness_se           25.9666      4.050      6.411      0.000      18.011      33.922
+symmetry_worst           0.8601      0.204      4.217      0.000       0.459       1.261
+compactness_se          -2.0568      0.756     -2.720      0.007      -3.542      -0.572
+==============================================================================
+Omnibus:                       23.575   Durbin-Watson:                   1.705
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.388
+Skew:                           0.494   Prob(JB):                     3.07e-06
+Kurtosis:                       3.308   Cond. No.                     4.15e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.15e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: 22.468992432225605
+BIC: 57.22003590523625
+
+
+Entered : radius_se
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.752
+Model:                            OLS   Adj. R-squared:                  0.748
+Method:                 Least Squares   F-statistic:                     212.0
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          5.65e-164
+Time:                        12:04:32   Log-Likelihood:                 2.5719
+No. Observations:                 569   AIC:                             12.86
+Df Residuals:                     560   BIC:                             51.95
+Df Model:                           8                                         
+Covariance Type:            nonrobust                                         
+========================================================================================
+                           coef    std err          t      P>|t|      [0.025      0.975]
+----------------------------------------------------------------------------------------
+intercept               -2.0213      0.151    -13.396      0.000      -2.318      -1.725
+concave points_worst     2.6765      0.354      7.564      0.000       1.981       3.372
+radius_worst             0.1226      0.014      8.636      0.000       0.095       0.151
+texture_worst            0.0127      0.002      7.004      0.000       0.009       0.016
+area_worst              -0.0007      0.000     -6.554      0.000      -0.001      -0.001
+smoothness_se           21.0573      4.265      4.937      0.000      12.680      29.435
+symmetry_worst           0.8684      0.202      4.297      0.000       0.471       1.265
+compactness_se          -2.7733      0.778     -3.564      0.000      -4.302      -1.245
+radius_se                0.2245      0.066      3.398      0.001       0.095       0.354
+==============================================================================
+Omnibus:                       17.623   Durbin-Watson:                   1.727
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               18.732
+Skew:                           0.444   Prob(JB):                     8.56e-05
+Kurtosis:                       2.984   Cond. No.                     4.40e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.4e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: 12.856100667403553
+BIC: 51.95102457454053
+
+
+Entered : fractal_dimension_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.756
+Model:                            OLS   Adj. R-squared:                  0.752
+Method:                 Least Squares   F-statistic:                     192.5
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          7.14e-165
+Time:                        12:04:32   Log-Likelihood:                 7.4563
+No. Observations:                 569   AIC:                             5.087
+Df Residuals:                     559   BIC:                             48.53
+Df Model:                           9                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+intercept                  -2.2795      0.171    -13.315      0.000      -2.616      -1.943
+concave points_worst        2.1159      0.395      5.361      0.000       1.341       2.891
+radius_worst                0.1364      0.015      9.236      0.000       0.107       0.165
+texture_worst               0.0120      0.002      6.611      0.000       0.008       0.016
+area_worst                 -0.0008      0.000     -7.081      0.000      -0.001      -0.001
+smoothness_se              21.9137      4.241      5.167      0.000      13.583      30.245
+symmetry_worst              0.6767      0.210      3.225      0.001       0.265       1.089
+compactness_se             -3.7923      0.839     -4.521      0.000      -5.440      -2.145
+radius_se                   0.2493      0.066      3.775      0.000       0.120       0.379
+fractal_dimension_worst     2.8903      0.929      3.111      0.002       1.066       4.715
+==============================================================================
+Omnibus:                       21.390   Durbin-Watson:                   1.743
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               22.972
+Skew:                           0.491   Prob(JB):                     1.03e-05
+Kurtosis:                       3.079   Cond. No.                     4.41e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.41e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: 5.087394097052538
+BIC: 48.526198438315845
+
+
+Entered : compactness_mean
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.760
+Model:                            OLS   Adj. R-squared:                  0.755
+Method:                 Least Squares   F-statistic:                     176.2
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.85e-165
+Time:                        12:04:32   Log-Likelihood:                 11.562
+No. Observations:                 569   AIC:                            -1.124
+Df Residuals:                     558   BIC:                             46.66
+Df Model:                          10                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+intercept                  -2.3817      0.174    -13.699      0.000      -2.723      -2.040
+concave points_worst        2.6267      0.431      6.091      0.000       1.780       3.474
+radius_worst                0.1412      0.015      9.557      0.000       0.112       0.170
+texture_worst               0.0113      0.002      6.217      0.000       0.008       0.015
+area_worst                 -0.0009      0.000     -7.410      0.000      -0.001      -0.001
+smoothness_se              23.2403      4.240      5.481      0.000      14.912      31.569
+symmetry_worst              0.7585      0.210      3.604      0.000       0.345       1.172
+compactness_se             -2.5144      0.947     -2.656      0.008      -4.374      -0.655
+radius_se                   0.2881      0.067      4.298      0.000       0.156       0.420
+fractal_dimension_worst     3.9301      0.993      3.959      0.000       1.980       5.880
+compactness_mean           -1.4495      0.509     -2.848      0.005      -2.449      -0.450
+==============================================================================
+Omnibus:                       23.836   Durbin-Watson:                   1.750
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               25.889
+Skew:                           0.520   Prob(JB):                     2.39e-06
+Kurtosis:                       3.093   Cond. No.                     4.44e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.44e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: -1.1238809025467162
+BIC: 46.658803872842924
+
+
+Entered : concave points_mean
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.764
+Model:                            OLS   Adj. R-squared:                  0.759
+Method:                 Least Squares   F-statistic:                     164.0
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.19e-166
+Time:                        12:04:32   Log-Likelihood:                 17.062
+No. Observations:                 569   AIC:                            -10.12
+Df Residuals:                     557   BIC:                             42.00
+Df Model:                          11                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+intercept                  -2.3362      0.173    -13.512      0.000      -2.676      -1.997
+concave points_worst        1.7024      0.511      3.330      0.001       0.698       2.707
+radius_worst                0.1366      0.015      9.287      0.000       0.108       0.166
+texture_worst               0.0119      0.002      6.558      0.000       0.008       0.015
+area_worst                 -0.0009      0.000     -7.588      0.000      -0.001      -0.001
+smoothness_se              19.6945      4.339      4.539      0.000      11.172      28.216
+symmetry_worst              0.8435      0.210      4.013      0.000       0.431       1.256
+compactness_se             -1.8737      0.958     -1.955      0.051      -3.756       0.009
+radius_se                   0.2428      0.068      3.579      0.000       0.110       0.376
+fractal_dimension_worst     5.0287      1.039      4.840      0.000       2.988       7.069
+compactness_mean           -2.6733      0.626     -4.268      0.000      -3.904      -1.443
+concave points_mean         3.4698      1.052      3.297      0.001       1.403       5.537
+==============================================================================
+Omnibus:                       26.127   Durbin-Watson:                   1.739
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.590
+Skew:                           0.544   Prob(JB):                     6.19e-07
+Kurtosis:                       3.148   Cond. No.                     4.59e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.59e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: -10.123034424464095
+BIC: 42.00353078505188
+
+
+Entered : concavity_worst
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.766
+Model:                            OLS   Adj. R-squared:                  0.761
+Method:                 Least Squares   F-statistic:                     151.6
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.91e-166
+Time:                        12:04:32   Log-Likelihood:                 19.223
+No. Observations:                 569   AIC:                            -12.45
+Df Residuals:                     556   BIC:                             44.02
+Df Model:                          12                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+intercept                  -2.2860      0.174    -13.130      0.000      -2.628      -1.944
+concave points_worst        1.2584      0.553      2.274      0.023       0.171       2.346
+radius_worst                0.1384      0.015      9.421      0.000       0.110       0.167
+texture_worst               0.0113      0.002      6.220      0.000       0.008       0.015
+area_worst                 -0.0009      0.000     -7.749      0.000      -0.001      -0.001
+smoothness_se              21.3147      4.397      4.848      0.000      12.678      29.952
+symmetry_worst              0.8147      0.210      3.878      0.000       0.402       1.227
+compactness_se             -2.6726      1.031     -2.592      0.010      -4.698      -0.647
+radius_se                   0.2584      0.068      3.797      0.000       0.125       0.392
+fractal_dimension_worst     4.3488      1.087      4.000      0.000       2.213       6.484
+compactness_mean           -2.6203      0.625     -4.192      0.000      -3.848      -1.393
+concave points_mean         3.3598      1.051      3.198      0.001       1.296       5.423
+concavity_worst             0.2533      0.123      2.059      0.040       0.012       0.495
+==============================================================================
+Omnibus:                       25.278   Durbin-Watson:                   1.729
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               27.602
+Skew:                           0.536   Prob(JB):                     1.01e-06
+Kurtosis:                       3.118   Cond. No.                     4.67e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.67e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: -12.445449268407856
+BIC: 44.02499637523445
+
+
+Entered : concavity_se
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.769
+Model:                            OLS   Adj. R-squared:                  0.763
+Method:                 Least Squares   F-statistic:                     141.8
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          9.50e-167
+Time:                        12:04:32   Log-Likelihood:                 22.556
+No. Observations:                 569   AIC:                            -17.11
+Df Residuals:                     555   BIC:                             43.70
+Df Model:                          13                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+intercept                  -2.1568      0.180    -11.952      0.000      -2.511      -1.802
+concave points_worst        1.1717      0.552      2.123      0.034       0.088       2.255
+radius_worst                0.1334      0.015      9.042      0.000       0.104       0.162
+texture_worst               0.0107      0.002      5.857      0.000       0.007       0.014
+area_worst                 -0.0009      0.000     -7.731      0.000      -0.001      -0.001
+smoothness_se              21.8644      4.381      4.991      0.000      13.260      30.469
+symmetry_worst              0.7695      0.210      3.668      0.000       0.357       1.181
+compactness_se             -0.6599      1.293     -0.510      0.610      -3.200       1.880
+radius_se                   0.2917      0.069      4.229      0.000       0.156       0.427
+fractal_dimension_worst     3.6542      1.115      3.276      0.001       1.463       5.845
+compactness_mean           -3.0183      0.641     -4.708      0.000      -4.278      -1.759
+concave points_mean         3.6543      1.052      3.474      0.001       1.588       5.720
+concavity_worst             0.4799      0.151      3.176      0.002       0.183       0.777
+concavity_se               -1.8357      0.718     -2.557      0.011      -3.246      -0.426
+==============================================================================
+Omnibus:                       24.593   Durbin-Watson:                   1.751
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               26.680
+Skew:                           0.524   Prob(JB):                     1.61e-06
+Kurtosis:                       3.161   Cond. No.                     4.67e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.67e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: -17.111775285937938
+BIC: 43.70255079183069
+
+
+Entered : area_se
+
+
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:              diagnosis   R-squared:                       0.770
+Model:                            OLS   Adj. R-squared:                  0.765
+Method:                 Least Squares   F-statistic:                     132.8
+Date:                Mon, 04 Jul 2022   Prob (F-statistic):          1.40e-166
+Time:                        12:04:32   Log-Likelihood:                 24.733
+No. Observations:                 569   AIC:                            -19.47
+Df Residuals:                     554   BIC:                             45.69
+Df Model:                          14                                         
+Covariance Type:            nonrobust                                         
+===========================================================================================
+                              coef    std err          t      P>|t|      [0.025      0.975]
+-------------------------------------------------------------------------------------------
+intercept                  -2.0213      0.192    -10.552      0.000      -2.398      -1.645
+concave points_worst        1.1913      0.550      2.165      0.031       0.110       2.272
+radius_worst                0.1180      0.017      7.149      0.000       0.086       0.150
+texture_worst               0.0104      0.002      5.646      0.000       0.007       0.014
+area_worst                 -0.0007      0.000     -5.314      0.000      -0.001      -0.000
+smoothness_se              20.5634      4.413      4.660      0.000      11.895      29.232
+symmetry_worst              0.7296      0.210      3.473      0.001       0.317       1.142
+compactness_se             -0.5642      1.290     -0.437      0.662      -3.099       1.970
+radius_se                   0.5472      0.142      3.863      0.000       0.269       0.825
+fractal_dimension_worst     3.3478      1.122      2.984      0.003       1.144       5.552
+compactness_mean           -3.0273      0.639     -4.735      0.000      -4.283      -1.772
+concave points_mean         3.6316      1.049      3.463      0.001       1.572       5.692
+concavity_worst             0.5329      0.153      3.486      0.001       0.233       0.833
+concavity_se               -2.0517      0.723     -2.837      0.005      -3.472      -0.631
+area_se                    -0.0020      0.001     -2.063      0.040      -0.004   -9.38e-05
+==============================================================================
+Omnibus:                       26.054   Durbin-Watson:                   1.767
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               28.521
+Skew:                           0.544   Prob(JB):                     6.41e-07
+Kurtosis:                       3.138   Cond. No.                     4.72e+05
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 4.72e+05. This might indicate that there are
+strong multicollinearity or other numerical problems.
+AIC: -19.466346404228943
+BIC: 45.69186010766602
+
